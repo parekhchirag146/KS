@@ -23,7 +23,7 @@ define(['angular'], function (angular) {
 			restrict: "EA",
 			replace: true,
 			transclude: true,
-			templateUrl: "/footer.html"
+			templateUrl: "/parekhchirag146/KS/master/footer.html"
 		};
 	});
 	
@@ -36,7 +36,7 @@ define(['angular'], function (angular) {
         ];
         $scope.testimonials = [];
         
-        $http.get('/json/testimonials.json')
+        $http.get('/parekhchirag146/KS/master/json/testimonials.json')
          .success(function (data) {
              $scope.testimonials = data;
          })
