@@ -14,12 +14,14 @@ define(['angular', 'app'], function (angular, app) {
 	});
 
 	app.controller("HeaderCtrl", function ($scope, $location) {
-		console.log('HeaderCtrl working');
-		$scope.isActive = function (viewLocation) { 
-			alert("header1");
+		//console.log('HeaderCtrl working');
+		$scope.isActive = function (viewLocation) {
             return viewLocation === $location.path();
 		};
-		alert("header");
+		//alert("header");
+		function initHeader(params) {
+			alert("initHeader");
+		}
 	});
 	
 });
