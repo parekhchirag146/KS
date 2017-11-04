@@ -8,7 +8,7 @@ define(['angular', 'app'], function (angular, app) {
 			restrict: "EA",
 			replace: true,
 			transclude: true,
-			templateUrl: "/header.html",
+			templateUrl: "/parekhchirag146/KS/master/header.html",
 			controller:  'HeaderCtrl'
 		};
 	});
