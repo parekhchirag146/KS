@@ -17,7 +17,8 @@ define(['angular', 'app'], function (angular, app) {
 		console.log('HeaderCtrl working');
 		$scope.isActive = function (viewLocation) { 
             return viewLocation === $location.path();
-        };
+		};
+		alert("header");
 	});
 	
 });
